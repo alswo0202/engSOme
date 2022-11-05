@@ -1,0 +1,97 @@
+body {
+    margin : 0; 
+    background-color: #f1f1f1;
+}
+nav {
+    height: 4h;
+    margin-top : 3px;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-flow : row wrap;
+    justify-content: flex-end;
+}
+
+nav a {
+    margin : 1.5px 3.5px;
+    background-color: #f1f1f1;
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    width: 7%;
+    border: 1px solid grey;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    color : grey
+}
+
+nav .sign {
+    background-color: #e7e1e1bf;
+    
+}
+
+.log:hover,
+.log:focus {
+    box-shadow: inset 0 0 0 2em #e2dcdc;
+}
+
+.sign:hover,
+.sign:focus {
+  box-shadow: inset 0 0 0 2em #ccc6c6bf;
+}
+
+
+
+.container {
+    background: #f1f1f1;
+    height: 91vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Black Han Sans', sans-serif; 
+}
+
+.container a {
+    width : 400px;
+    height: 400px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+    color: #fcf9f9;
+    border-radius: 5%;
+    text-decoration: none;
+}
+.container a:nth-of-type(1) {
+    background: rgb(105,71,168);
+    background: linear-gradient(135deg, rgba(105,71,168,0.9652193641128326) 0%, rgba(160,143,223,0.9540148823201156) 33%, rgba(204,185,245,0.979224966353729) 66%); 
+    transition: transform 0.5s;
+    transition: opacity 0.5s;
+}
+
+.container a:nth-of-type(2) {
+    background: rgb(119,171,208);
+    background: linear-gradient(335deg, rgba(119,171,208,0.9596171232164741) 0%, rgba(88,154,213,0.9736227254573705) 33%, rgba(11,210,250,0.9428104005273985) 66%); 
+    transition: transform 0.5s;
+    transition: opacity 0.5s;
+  
+}
+
+footer {
+    height: 5vh;
+    font-family: 'Do Hyeon', sans-serif;
+    background-color: #eeeeee;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 0.5px solid grey;
+}
+
+.container a:hover {
+    transform: translateY(-0.25em);
+    border : 2px solid rgb(169, 165, 165);
+    opacity: 80%;
+}
