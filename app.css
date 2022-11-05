@@ -88,6 +88,8 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     border-top: 0.5px solid grey;
+    color : grey;
+    font-size: 1em;
 }
 
 .container a:hover {
@@ -95,3 +97,39 @@ footer {
     border : 2px solid rgb(169, 165, 165);
     opacity: 80%;
 }
+
+footer div:nth-of-type(2):hover {
+    color : black;
+    text-decoration: underline;
+}
+
+footer div:nth-of-type(3):hover {
+    color : black;
+    text-decoration: underline;
+}
+
+img {
+    background-color: grey;
+    margin-bottom: 2px;
+    width : 16px;
+    height: 16px;   
+}
+
+.selection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer select {
+    font-family: 'Do Hyeon', sans-serif;
+    color : grey;
+    appearance: none;
+    border: none;
+    background : none;
+    font-size: 1em;
+}
+
+footer select:hover {
+    color : black;
+    text-decoration: underline;
+}   
